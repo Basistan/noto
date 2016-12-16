@@ -1,0 +1,2864 @@
+{
+  "settings": {
+    "name": "notografiska",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#ffffff",
+        "buttonsColor": "#ffffff",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Yanone Kaffeesatz",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "3.9.0",
+    "uniqCompNum": 83,
+    "versionPublish": "3.10.2",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "36px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#ffffff!important"
+            },
+            ".navbar-caption P": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-5",
+          "_params": {
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/notologo-vit4x-76x128-50.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "#top",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><p>notografiska</p></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-20\">Om oss</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Vad vi gör</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"score.html\">Partitur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"reduction.html\">Klaverutdrag</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Finböcker</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Antologier</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Källkritiska utgåvor</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pop.html\">Pop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pedagogy.html\">Akademiska och Pedagogik</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"editor.html\">Redaktörsskap</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-d\">Kontakt</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#93a3a7",
+              "font-style": "italic"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            ".mbr-section-text": {
+              "text-align": "center",
+              "font-family": "'Droid Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700"
+            },
+            ".mbr-section-title B": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-3",
+          "_params": {
+            "buttonAlign": "center",
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/08flygel-2000x1333-45.jpg",
+            "bgColor": "#2c3e50",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#000000",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "title": "NOTOGRAFISKA",
+          "text": "Probably the best musical engraver in the world.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">learn more</a>   ",
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png"
+        },
+        {
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "team1",
+          "_styles": {
+            ".text4": {
+              "color": "#000000"
+            },
+            ".text3": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "team1-i",
+          "_params": {
+            "rows": "2",
+            "bgItem1": "#024c9e",
+            "bgItem2": "#c24938",
+            "bgItem3": "#897c59",
+            "bgItem4": "#7da3ac",
+            "paddingTop": "0",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@THEME_PATH@/components/_images/pricing-table/pricing-table-bg.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showSubtitle": false
+          },
+          "title": "Our Team",
+          "subtitle": "This new-found knowledge may then be used by engineers to create new tools and machines.",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/test-600x539-52.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "person1": "Partitur",
+          "subtitle1": "",
+          "caption1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante nisl, pellentesque vel fermentum vel, vulputate sit amet sem. <br><a href=\"score.html\" style=\"font-size: 1rem; line-height: 1.5; background-color: rgb(2, 76, 158);\">Läs mer</a><br>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/matteus4-600x539-89.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "person2": "Klaverutdrag",
+          "subtitle2": "",
+          "caption2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante nisl, pellentesque vel fermentum vel, vulputate sit amet sem. <br><a href=\"reduction.html\" style=\"font-size: 1rem; line-height: 1.5; background-color: rgb(194, 73, 56);\">Läs mer</a><br>",
+          "person3": "Antologi",
+          "subtitle3": "",
+          "caption3": "In daily life, maybe you have so familiar Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante nisl, pellentesque vel fermentum vel, vulputate sit&nbsp;<br><a href=\"anthology.html\" style=\"background-color: rgb(137, 124, 89); font-size: 1rem; line-height: 1.5;\">Läs mer</a><br>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/svensk-pianomusik-liten-600x539-16.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "person4": "Pedagogiskt",
+          "subtitle4": "",
+          "caption4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante nisl, pellentesque vel fermentum vel,&nbsp;<br><a href=\"pedagogy.html\">Läs mer</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pedal-2-liten-600x539-34.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          }
+        },
+        {
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "team1",
+          "_anchor": "team1-j",
+          "_params": {
+            "rows": "1",
+            "bgItem1": "#224241",
+            "bgItem2": "#302728",
+            "bgItem3": "#d2dde4",
+            "bgItem4": "#212121",
+            "paddingTop": "0",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@THEME_PATH@/components/_images/pricing-table/pricing-table-bg.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showSubtitle": false
+          },
+          "title": "Our Team",
+          "subtitle": "This new-found knowledge may then be used by engineers to create new tools and machines.",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/om-liten-600x539-96.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "person1": "Pop",
+          "subtitle1": "",
+          "caption1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante nisl, pellentesque vel fermentum vel, vulputate sit amet sem.&nbsp;<br><a href=\"pop.html\">Läs mer</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bach-liten-600x539-87.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "person2": "Redaktörskap",
+          "subtitle2": "",
+          "caption2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante nisl, pellentesque vel fermentum vel, vulputate sit amet sem.&nbsp;<br><a href=\"editor.html\">Läs mer</a>",
+          "person3": "Barry Bostwick",
+          "subtitle3": "DESIGNER",
+          "caption3": "In daily life, maybe you have so familiar with a number of daily necessities, well, do you .",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/team/face3.png",
+              "class": "features-img",
+              "width": 600
+            }
+          },
+          "person4": "Anna Cameron",
+          "subtitle4": "PHOTOGRAPHER",
+          "caption4": "Every year more than four million traffic lights use an estimated three billion .",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/team/face4.png",
+              "class": "features-img",
+              "width": 600
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "content5-20",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/anders-spelar-1-2000x1333-43.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#000000",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "<span style=\"font-weight: normal;\">Om notografiska</span>",
+          "caption": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante nisl, pellentesque vel fermentum vel, vulputate sit amet sem. Donec tellus mauris, placerat sed massa sit amet, ornare dictum lectus. Duis lectus dui, tristique id faucibus sit amet, facilisis ut nibh. Duis sagittis, mi sed interdum congue, nulla urna congue ligula, sed auctor turpis arcu eget nisl. In lacus diam, dictum quis vehicula in, interdum in arcu. Ut lobortis auctor lobortis. Maecenas metus nulla, fermentum nec accumsan vel, facilisis nec sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi dapibus ante quis posuere porttitor. Nunc quis pellentesque augue, eget consequat velit. Aliquam ut volutpat urna. Pellentesque sed nisi a libero vehicula pulvinar. Phasellus pharetra bibendum ex a venenatis. Aliquam non dolor velit.</p><p><br></p><p><br></p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-d",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ecf0f1",
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true
+          },
+          "subtitle": "",
+          "title": "Ring så spelar vi",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis, ea amet non commodi voluptate. Aspernatur libero cumque in unde et culpa corrupti asperiores praesentium voluptatum iure dolores illo nihil saepe distinctio eaque explicabo quis ipsam sed consectetur, accusantium ex qui. Voluptas nam consectetur, dolorem sed quo qui iusto dolor!",
+          "form": {
+            "action": "ulf.tjarnstrom@gmail.com",
+            "alerts": {
+              "success": "Tack, vi hör av oss snarast!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Namn*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "E-post*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Telefon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Vad kan vi hjälpa dig med?"
+              }
+            }
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            },
+            "P": {
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "left"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-e",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444",
+            "logo": false,
+            "showTitles": false,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "Notografiska",
+          "text11": "<b>Notografiska</b><br>Krokvägen 16<br>141 31 Huddinge<br>Sweden<br>",
+          "text12": "",
+          "text13": "",
+          "text14": "",
+          "text15": "",
+          "title2": "",
+          "text21": "070-123456",
+          "text22": "info@notografiska.se",
+          "text23": "Org. nr. 123456789",
+          "text24": "",
+          "text25": "",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://linkedin.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "Copyright (c) 2016 Notografiska"
+        }
+      ]
+    },
+    "score.html": {
+      "settings": {
+        "title": "Partitur"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "36px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#ffffff!important"
+            },
+            ".navbar-caption P": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-k",
+          "_params": {
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/notologo-vit4x-76x128-50.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><p>notografiska</p></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-20\">Om oss</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Vad vi gör</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"score.html\">Partitur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"reduction.html\">Klaverutdrag</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Finböcker</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Antologier</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Källkritiska utgåvor</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pop.html\">Pop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pedagogy.html\">Akademiska och Pedagogik</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"editor.html\">Redaktörsskap</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-d\">Kontakt</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "72px"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "80px",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "content5-m",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/20matteus1-2000x1333-16.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#024c9e",
+            "showTitle": true,
+            "showCaption": false
+          },
+          "title": "<span style=\"font-weight: normal;\">Partitur</span>",
+          "caption": "<p>Article header with background image and parallax effect.</p>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1r",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop&nbsp;<span style=\"font-size: 1rem; line-height: 1.85em;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante nisl, pellentesque vel fermentum vel, vulputate sit amet sem. Donec tellus mauris, placerat sed massa sit amet, ornare dictum lectus. Duis lectus dui, tristique id faucibus sit amet, facilisis ut nibh. Duis sagittis, mi sed interdum congue, nulla urna congue ligula, sed auctor turpis arcu eget nisl. In lacus diam, dictum quis vehicula in, interdum in arcu. Ut lobortis auctor lobortis. Maecenas metus nulla, fermentum nec accumsan vel, facilisis nec sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi dapibus ante quis posuere porttitor. Nunc quis pellentesque augue, eget consequat velit. Aliquam ut volutpat urna. Pellentesque sed nisi a libero vehicula pulvinar. Phasellus pharetra bibendum ex a venenatis. Aliquam non dolor velit.</span><br></p><br>Duis sapien odio, viverra a condimentum et, elementum nec augue. Nullam sollicitudin neque a nibh venenatis consequat. Quisque ut ligula tincidunt libero scelerisque convallis ut vel tellus. Curabitur rhoncus eros eu enim fermentum suscipit. Sed dignissim, ligula nec posuere fringilla, diam neque lobortis est, pellentesque cursus odio leo ut orci. Vivamus id laoreet nulla. Duis auctor sed velit ac tincidunt. Aliquam vestibulum tincidunt metus a consectetur. Vivamus ut eros tellus. Mauris interdum scelerisque magna. Maecenas gravida efficitur volutpat. Proin sem turpis, placerat eget pharetra ac, imperdiet eget justo.<br><p>Se exempel på våra partitur som pdf: <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Bach</a>, <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Händel</a>, <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Zappa</a>.</p>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/requiem-stand-1-2000x1333-43-2000x1333-46.jpg",
+                "image": "@PROJECT_PATH@/assets/images/requiem-stand-1-2000x1333-43.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/requeim3-2000x1333-63-2000x1333-92.jpg",
+                "image": "@PROJECT_PATH@/assets/images/requeim3-2000x1333-63.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/matteus3-2000x1333-31-2000x1333-92.jpg",
+                "image": "@PROJECT_PATH@/assets/images/matteus3-2000x1333-31.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/requiem2-2000x1333-52-2000x1333-30.jpg",
+                "image": "@PROJECT_PATH@/assets/images/requiem2-2000x1333-52.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "2",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-o",
+          "articleLayout": false,
+          "allItem": "ALL",
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "text-align": "left"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-p",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///Users/ulf/Library/Application%20Support/Mobirise.com/Mobirise/projectData/03.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ecf0f1",
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true
+          },
+          "subtitle": "",
+          "title": "Ring så spelar vi",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis, ea amet non commodi voluptate. Aspernatur libero cumque in unde et culpa corrupti asperiores praesentium voluptatum iure dolores illo nihil saepe distinctio eaque explicabo quis ipsam sed consectetur, accusantium ex qui. Voluptas nam consectetur, dolorem sed quo qui iusto dolor!",
+          "form": {
+            "action": "ulf.tjarnstrom@gmail.com",
+            "alerts": {
+              "success": "Tack, vi hör av oss snarast!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Namn*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "E-post*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Telefon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Vad kan vi hjälpa dig med?"
+              }
+            }
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            },
+            "P": {
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "left"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-l",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444",
+            "logo": false,
+            "showTitles": false,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "Notografiska",
+          "text11": "<b>Notografiska</b><br>Krokvägen 16<br>141 31 Huddinge<br>Sweden<br>",
+          "text12": "",
+          "text13": "",
+          "text14": "",
+          "text15": "",
+          "title2": "",
+          "text21": "070-123456",
+          "text22": "info@notografiska.se",
+          "text23": "Org. nr. 123456789",
+          "text24": "",
+          "text25": "",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://linkedin.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "Copyright (c) 2016 Notografiska"
+        }
+      ]
+    },
+    "reduction.html": {
+      "settings": {
+        "title": "Klaverutdrag"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "36px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#ffffff!important"
+            },
+            ".navbar-caption P": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-q",
+          "_params": {
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/notologo-vit4x-76x128-50.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><p>notografiska</p></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-20\">Om oss</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Vad vi gör</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"score.html\">Partitur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"reduction.html\">Klaverutdrag</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Finböcker</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Antologier</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Källkritiska utgåvor</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pop.html\">Pop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pedagogy.html\">Akademiska och Pedagogik</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"editor.html\">Redaktörsskap</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-d\">Kontakt</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "72px"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "80px",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "content5-10",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dscf5069-2000x1333-85.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#c24938",
+            "showTitle": true,
+            "showCaption": false
+          },
+          "title": "<span style=\"font-weight: normal;\">klaverutdrag</span>",
+          "caption": "<p>Article header with background image and parallax effect.</p>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content1-22",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop&nbsp;<span style=\"font-size: 1rem; line-height: 1.85em;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante nisl, pellentesque vel fermentum vel, vulputate sit amet sem. Donec tellus mauris, placerat sed massa sit amet, ornare dictum lectus. Duis lectus dui, tristique id faucibus sit amet, facilisis ut nibh. Duis sagittis, mi sed interdum congue, nulla urna congue ligula, sed auctor turpis arcu eget nisl. In lacus diam, dictum quis vehicula in, interdum in arcu. Ut lobortis auctor lobortis. Maecenas metus nulla, fermentum nec accumsan vel, facilisis nec sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi dapibus ante quis posuere porttitor. Nunc quis pellentesque augue, eget consequat velit. Aliquam ut volutpat urna. Pellentesque sed nisi a libero vehicula pulvinar. Phasellus pharetra bibendum ex a venenatis. Aliquam non dolor velit.</span><br></p><br>Duis sapien odio, viverra a condimentum et, elementum nec augue. Nullam sollicitudin neque a nibh venenatis consequat. Quisque ut ligula tincidunt libero scelerisque convallis ut vel tellus. Curabitur rhoncus eros eu enim fermentum suscipit. Sed dignissim, ligula nec posuere fringilla, diam neque lobortis est, pellentesque cursus odio leo ut orci. Vivamus id laoreet nulla. Duis auctor sed velit ac tincidunt. Aliquam vestibulum tincidunt metus a consectetur. Vivamus ut eros tellus. Mauris interdum scelerisque magna. Maecenas gravida efficitur volutpat. Proin sem turpis, placerat eget pharetra ac, imperdiet eget justo.<br><p>Se exempel på våra partitur som pdf: <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Bach</a>, <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Händel</a>, <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Zappa</a>.</p>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/matteus2-2000x1333-72-2000x1333-91.jpg",
+                "image": "@PROJECT_PATH@/assets/images/matteus2-2000x1333-72.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/svenska-operaduetter-2000x1333-14-2000x1333-95.jpg",
+                "image": "@PROJECT_PATH@/assets/images/svenska-operaduetter-2000x1333-14.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/matteus1-2000x1333-87-2000x1333-44.jpg",
+                "image": "@PROJECT_PATH@/assets/images/matteus1-2000x1333-87.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dscf5043-2000x1333-76-2000x1333-47.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscf5043-2000x1333-76.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "0",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#ffffff",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-12",
+          "articleLayout": false,
+          "allItem": "ALL",
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "text-align": "center",
+              "color": "#000000"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-13",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///Users/ulf/Library/Application%20Support/Mobirise.com/Mobirise/projectData/03.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ecf0f1",
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true
+          },
+          "subtitle": "",
+          "title": "Ring så spelar vi",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis, ea amet non commodi voluptate. Aspernatur libero cumque in unde et culpa corrupti asperiores praesentium voluptatum iure dolores illo nihil saepe distinctio eaque explicabo quis ipsam sed consectetur, accusantium ex qui. Voluptas nam consectetur, dolorem sed quo qui iusto dolor!",
+          "form": {
+            "action": "ulf.tjarnstrom@gmail.com",
+            "alerts": {
+              "success": "Tack, vi hör av oss snarast!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Namn*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "E-post*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Telefon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Vad kan vi hjälpa dig med?"
+              }
+            }
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            },
+            "P": {
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "left"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-r",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444",
+            "logo": false,
+            "showTitles": false,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "Notografiska",
+          "text11": "<b>Notografiska</b><br>Krokvägen 16<br>141 31 Huddinge<br>Sweden<br>",
+          "text12": "",
+          "text13": "",
+          "text14": "",
+          "text15": "",
+          "title2": "",
+          "text21": "070-123456",
+          "text22": "info@notografiska.se",
+          "text23": "Org. nr. 123456789",
+          "text24": "",
+          "text25": "",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://linkedin.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "Copyright (c) 2016 Notografiska"
+        }
+      ]
+    },
+    "anthology.html": {
+      "settings": {
+        "title": "Antologier"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "36px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#ffffff!important"
+            },
+            ".navbar-caption P": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-s",
+          "_params": {
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/notologo-vit4x-76x128-50.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><p>notografiska</p></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-20\">Om oss</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Vad vi gör</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"score.html\">Partitur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"reduction.html\">Klaverutdrag</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Finböcker</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Antologier</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Källkritiska utgåvor</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pop.html\">Pop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pedagogy.html\">Akademiska och Pedagogik</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"editor.html\">Redaktörsskap</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-d\">Kontakt</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "80px",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "content5-15",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/25bcker-2000x1333-35.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#897c59",
+            "showTitle": true,
+            "showCaption": false
+          },
+          "title": "<span style=\"font-weight: normal;\">Antologier och källkritiska utgåvor</span>",
+          "caption": "<p>Article header with background image and parallax effect.</p>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content1-24",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop&nbsp;<span style=\"font-size: 1rem; line-height: 1.85em;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante nisl, pellentesque vel fermentum vel, vulputate sit amet sem. Donec tellus mauris, placerat sed massa sit amet, ornare dictum lectus. Duis lectus dui, tristique id faucibus sit amet, facilisis ut nibh. Duis sagittis, mi sed interdum congue, nulla urna congue ligula, sed auctor turpis arcu eget nisl. In lacus diam, dictum quis vehicula in, interdum in arcu. Ut lobortis auctor lobortis. Maecenas metus nulla, fermentum nec accumsan vel, facilisis nec sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi dapibus ante quis posuere porttitor. Nunc quis pellentesque augue, eget consequat velit. Aliquam ut volutpat urna. Pellentesque sed nisi a libero vehicula pulvinar. Phasellus pharetra bibendum ex a venenatis. Aliquam non dolor velit.</span><br></p><br>Duis sapien odio, viverra a condimentum et, elementum nec augue. Nullam sollicitudin neque a nibh venenatis consequat. Quisque ut ligula tincidunt libero scelerisque convallis ut vel tellus. Curabitur rhoncus eros eu enim fermentum suscipit. Sed dignissim, ligula nec posuere fringilla, diam neque lobortis est, pellentesque cursus odio leo ut orci. Vivamus id laoreet nulla. Duis auctor sed velit ac tincidunt. Aliquam vestibulum tincidunt metus a consectetur. Vivamus ut eros tellus. Mauris interdum scelerisque magna. Maecenas gravida efficitur volutpat. Proin sem turpis, placerat eget pharetra ac, imperdiet eget justo.<br><p>Se exempel på våra partitur som pdf: <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Bach</a>, <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Händel</a>, <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Zappa</a>.</p>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery00.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gallery00.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery01.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gallery01.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery03.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gallery03.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery04.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gallery04.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery05.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gallery05.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery06.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gallery06.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery07.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gallery07.jpg",
+                "caption": "Type caption here"
+              }
+            ],
+            "spacing": "2",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-17",
+          "articleLayout": false,
+          "allItem": "ALL",
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "text-align": "left"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-14",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///Users/ulf/Library/Application%20Support/Mobirise.com/Mobirise/projectData/03.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ecf0f1",
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true
+          },
+          "subtitle": "",
+          "title": "Ring så spelar vi",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis, ea amet non commodi voluptate. Aspernatur libero cumque in unde et culpa corrupti asperiores praesentium voluptatum iure dolores illo nihil saepe distinctio eaque explicabo quis ipsam sed consectetur, accusantium ex qui. Voluptas nam consectetur, dolorem sed quo qui iusto dolor!",
+          "form": {
+            "action": "ulf.tjarnstrom@gmail.com",
+            "alerts": {
+              "success": "Tack, vi hör av oss snarast!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Namn*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "E-post*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Telefon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Vad kan vi hjälpa dig med?"
+              }
+            }
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            },
+            "P": {
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "left"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-t",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444",
+            "logo": false,
+            "showTitles": false,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "Notografiska",
+          "text11": "<b>Notografiska</b><br>Krokvägen 16<br>141 31 Huddinge<br>Sweden<br>",
+          "text12": "",
+          "text13": "",
+          "text14": "",
+          "text15": "",
+          "title2": "",
+          "text21": "070-123456",
+          "text22": "info@notografiska.se",
+          "text23": "Org. nr. 123456789",
+          "text24": "",
+          "text25": "",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://linkedin.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "Copyright (c) 2016 Notografiska"
+        }
+      ]
+    },
+    "pop.html": {
+      "settings": {
+        "title": "Pop"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "36px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#ffffff!important"
+            },
+            ".navbar-caption P": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-u",
+          "_params": {
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/notologo-vit4x-76x128-50.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><p>notografiska</p></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-20\">Om oss</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Vad vi gör</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"score.html\">Partitur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"reduction.html\">Klaverutdrag</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Finböcker</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Antologier</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Källkritiska utgåvor</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pop.html\">Pop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pedagogy.html\">Akademiska och Pedagogik</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"editor.html\">Redaktörsskap</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-d\">Kontakt</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "text-align": "right",
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-2a",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 1,
+            "bgColor": "#000000",
+            "showMeta": false
+          },
+          "title": "Pop",
+          "meta": "By <b>John Smith</b> posted July 20, 2016"
+        },
+        {
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_params": {
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "slides": [
+              {
+                "src": "@PROJECT_PATH@/assets/images/reload-2000x1333-94.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/reload-2000x1333-94-1600x900-61.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/reload-2000x1333-94-85x48-88.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/niklas1-2000x1333-17.jpg",
+                "active": true,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/niklas1-2000x1333-17-1600x900-65.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/niklas1-2000x1333-17-85x48-5.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/reload-2000x1333-21.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/reload-2000x1333-21-1600x900-86.jpg",
+                "title": "title 3",
+                "text": "text 3",
+                "tooltip": "@PROJECT_PATH@/assets/images/reload-2000x1333-21-85x48-51.jpg"
+              }
+            ],
+            "theme": "luxury",
+            "bgColor": "#ffffff",
+            "animType": "kenburns",
+            "autoplay": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "fullScreen": true,
+            "showBullets": false,
+            "timeout": 2,
+            "duration": 2,
+            "height": "576",
+            "width": "1024",
+            "responsive": "2",
+            "showCaptions": false,
+            "captionsEffect": "slide",
+            "hideControls": true
+          },
+          "_anchor": "wowslider-29",
+          "articleLayout": false
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content1-25",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop&nbsp;<span style=\"font-size: 1rem; line-height: 1.85em;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante nisl, pellentesque vel fermentum vel, vulputate sit amet sem. Donec tellus mauris, placerat sed massa sit amet, ornare dictum lectus. Duis lectus dui, tristique id faucibus sit amet, facilisis ut nibh. Duis sagittis, mi sed interdum congue, nulla urna congue ligula, sed auctor turpis arcu eget nisl. In lacus diam, dictum quis vehicula in, interdum in arcu. Ut lobortis auctor lobortis. Maecenas metus nulla, fermentum nec accumsan vel, facilisis nec sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi dapibus ante quis posuere porttitor. Nunc quis pellentesque augue, eget consequat velit. Aliquam ut volutpat urna. Pellentesque sed nisi a libero vehicula pulvinar. Phasellus pharetra bibendum ex a venenatis. Aliquam non dolor velit.</span><br></p><br>Duis sapien odio, viverra a condimentum et, elementum nec augue. Nullam sollicitudin neque a nibh venenatis consequat. Quisque ut ligula tincidunt libero scelerisque convallis ut vel tellus. Curabitur rhoncus eros eu enim fermentum suscipit. Sed dignissim, ligula nec posuere fringilla, diam neque lobortis est, pellentesque cursus odio leo ut orci. Vivamus id laoreet nulla. Duis auctor sed velit ac tincidunt. Aliquam vestibulum tincidunt metus a consectetur. Vivamus ut eros tellus. Mauris interdum scelerisque magna. Maecenas gravida efficitur volutpat. Proin sem turpis, placerat eget pharetra ac, imperdiet eget justo.<br><p>Se exempel på våra partitur som pdf: <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Bach</a>, <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Händel</a>, <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Zappa</a>.</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "text-align": "left"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-1b",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///Users/ulf/Library/Application%20Support/Mobirise.com/Mobirise/projectData/03.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ecf0f1",
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true
+          },
+          "subtitle": "",
+          "title": "Ring så spelar vi",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis, ea amet non commodi voluptate. Aspernatur libero cumque in unde et culpa corrupti asperiores praesentium voluptatum iure dolores illo nihil saepe distinctio eaque explicabo quis ipsam sed consectetur, accusantium ex qui. Voluptas nam consectetur, dolorem sed quo qui iusto dolor!",
+          "form": {
+            "action": "ulf.tjarnstrom@gmail.com",
+            "alerts": {
+              "success": "Tack, vi hör av oss snarast!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Namn*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "E-post*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Telefon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Vad kan vi hjälpa dig med?"
+              }
+            }
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            },
+            "P": {
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "left"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-v",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444",
+            "logo": false,
+            "showTitles": false,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "Notografiska",
+          "text11": "<b>Notografiska</b><br>Krokvägen 16<br>141 31 Huddinge<br>Sweden<br>",
+          "text12": "",
+          "text13": "",
+          "text14": "",
+          "text15": "",
+          "title2": "",
+          "text21": "070-123456",
+          "text22": "info@notografiska.se",
+          "text23": "Org. nr. 123456789",
+          "text24": "",
+          "text25": "",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://linkedin.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "Copyright (c) 2016 Notografiska"
+        }
+      ]
+    },
+    "pedagogy.html": {
+      "settings": {
+        "title": "Pedagogiska böcker"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "36px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#ffffff!important"
+            },
+            ".navbar-caption P": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-w",
+          "_params": {
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/notologo-vit4x-76x128-50.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><p>notografiska</p></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-20\">Om oss</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Vad vi gör</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"score.html\">Partitur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"reduction.html\">Klaverutdrag</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Finböcker</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Antologier</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Källkritiska utgåvor</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pop.html\">Pop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pedagogy.html\">Akademiska och Pedagogik</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"editor.html\">Redaktörsskap</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-d\">Kontakt</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            },
+            "P": {
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "left"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-x",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444",
+            "logo": false,
+            "showTitles": false,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "Notografiska",
+          "text11": "<b>Notografiska</b><br>Krokvägen 16<br>141 31 Huddinge<br>Sweden<br>",
+          "text12": "",
+          "text13": "",
+          "text14": "",
+          "text15": "",
+          "title2": "",
+          "text21": "070-123456",
+          "text22": "info@notografiska.se",
+          "text23": "Org. nr. 123456789",
+          "text24": "",
+          "text25": "",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://linkedin.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "Copyright (c) 2016 Notografiska"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "80px"
+            },
+            ".mbr-section-title SPAN": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "content5-1d",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dscf5021-2000x1333-97.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#7da3ac",
+            "showTitle": true,
+            "showCaption": false
+          },
+          "title": "<span style=\"font-weight: normal;\">text och noter</span>",
+          "caption": "<p>Article header with background image and parallax effect.</p>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content1-26",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop&nbsp;<span style=\"font-size: 1rem; line-height: 1.85em;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante nisl, pellentesque vel fermentum vel, vulputate sit amet sem. Donec tellus mauris, placerat sed massa sit amet, ornare dictum lectus. Duis lectus dui, tristique id faucibus sit amet, facilisis ut nibh. Duis sagittis, mi sed interdum congue, nulla urna congue ligula, sed auctor turpis arcu eget nisl. In lacus diam, dictum quis vehicula in, interdum in arcu. Ut lobortis auctor lobortis. Maecenas metus nulla, fermentum nec accumsan vel, facilisis nec sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi dapibus ante quis posuere porttitor. Nunc quis pellentesque augue, eget consequat velit. Aliquam ut volutpat urna. Pellentesque sed nisi a libero vehicula pulvinar. Phasellus pharetra bibendum ex a venenatis. Aliquam non dolor velit.</span><br></p><br>Duis sapien odio, viverra a condimentum et, elementum nec augue. Nullam sollicitudin neque a nibh venenatis consequat. Quisque ut ligula tincidunt libero scelerisque convallis ut vel tellus. Curabitur rhoncus eros eu enim fermentum suscipit. Sed dignissim, ligula nec posuere fringilla, diam neque lobortis est, pellentesque cursus odio leo ut orci. Vivamus id laoreet nulla. Duis auctor sed velit ac tincidunt. Aliquam vestibulum tincidunt metus a consectetur. Vivamus ut eros tellus. Mauris interdum scelerisque magna. Maecenas gravida efficitur volutpat. Proin sem turpis, placerat eget pharetra ac, imperdiet eget justo.<br><p>Se exempel på våra partitur som pdf: <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Bach</a>, <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Händel</a>, <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Zappa</a>.</p>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/milveden1-2000x1333-81-800x533-43.jpg",
+                "image": "@PROJECT_PATH@/assets/images/milveden1-2000x1333-81.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/milveden1-2000x1333-15-800x533-28.jpg",
+                "image": "@PROJECT_PATH@/assets/images/milveden1-2000x1333-15.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/milveden1-2000x1333-82-800x533-29.jpg",
+                "image": "@PROJECT_PATH@/assets/images/milveden1-2000x1333-82.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/milveden1-2000x1333-77-800x533-79.jpg",
+                "image": "@PROJECT_PATH@/assets/images/milveden1-2000x1333-77.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/milveden2-2000x1333-46-800x533-20.jpg",
+                "image": "@PROJECT_PATH@/assets/images/milveden2-2000x1333-46.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/milveden2-2000x1333-71-800x533-90.jpg",
+                "image": "@PROJECT_PATH@/assets/images/milveden2-2000x1333-71.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/milveden2-2000x1333-10-800x533-2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/milveden2-2000x1333-10.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/milveden2-2000x1333-76-800x533-73.jpg",
+                "image": "@PROJECT_PATH@/assets/images/milveden2-2000x1333-76.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "1",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-1f",
+          "articleLayout": false,
+          "allItem": "ALL",
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "text-align": "left"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-1c",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///Users/ulf/Library/Application%20Support/Mobirise.com/Mobirise/projectData/03.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ecf0f1",
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true
+          },
+          "subtitle": "",
+          "title": "Ring så spelar vi",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis, ea amet non commodi voluptate. Aspernatur libero cumque in unde et culpa corrupti asperiores praesentium voluptatum iure dolores illo nihil saepe distinctio eaque explicabo quis ipsam sed consectetur, accusantium ex qui. Voluptas nam consectetur, dolorem sed quo qui iusto dolor!",
+          "form": {
+            "action": "ulf.tjarnstrom@gmail.com",
+            "alerts": {
+              "success": "Tack, vi hör av oss snarast!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Namn*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "E-post*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Telefon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Vad kan vi hjälpa dig med?"
+              }
+            }
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        }
+      ]
+    },
+    "editor.html": {
+      "settings": {
+        "title": "Redaktörsskap"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "80px"
+            }
+          },
+          "_anchor": "content5-1h",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dscf5034-2000x1333-97.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#302728",
+            "showTitle": true,
+            "showCaption": false
+          },
+          "title": "<span style=\"font-weight: normal;\">redaktörskap</span>",
+          "caption": "<p>Article header with background image and parallax effect.</p>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "36px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#ffffff!important"
+            },
+            ".navbar-caption P": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-y",
+          "_params": {
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/notologo-vit4x-76x128-50.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><p>notografiska</p></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-20\">Om oss</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Vad vi gör</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"score.html\">Partitur</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"reduction.html\">Klaverutdrag</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Finböcker</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Antologier</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Källkritiska utgåvor</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pop.html\">Pop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"pedagogy.html\">Akademiska och Pedagogik</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"editor.html\">Redaktörsskap</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-d\">Kontakt</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content1-27",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop&nbsp;<span style=\"font-size: 1rem; line-height: 1.85em;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante nisl, pellentesque vel fermentum vel, vulputate sit amet sem. Donec tellus mauris, placerat sed massa sit amet, ornare dictum lectus. Duis lectus dui, tristique id faucibus sit amet, facilisis ut nibh. Duis sagittis, mi sed interdum congue, nulla urna congue ligula, sed auctor turpis arcu eget nisl. In lacus diam, dictum quis vehicula in, interdum in arcu. Ut lobortis auctor lobortis. Maecenas metus nulla, fermentum nec accumsan vel, facilisis nec sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi dapibus ante quis posuere porttitor. Nunc quis pellentesque augue, eget consequat velit. Aliquam ut volutpat urna. Pellentesque sed nisi a libero vehicula pulvinar. Phasellus pharetra bibendum ex a venenatis. Aliquam non dolor velit.</span><br></p><br>Duis sapien odio, viverra a condimentum et, elementum nec augue. Nullam sollicitudin neque a nibh venenatis consequat. Quisque ut ligula tincidunt libero scelerisque convallis ut vel tellus. Curabitur rhoncus eros eu enim fermentum suscipit. Sed dignissim, ligula nec posuere fringilla, diam neque lobortis est, pellentesque cursus odio leo ut orci. Vivamus id laoreet nulla. Duis auctor sed velit ac tincidunt. Aliquam vestibulum tincidunt metus a consectetur. Vivamus ut eros tellus. Mauris interdum scelerisque magna. Maecenas gravida efficitur volutpat. Proin sem turpis, placerat eget pharetra ac, imperdiet eget justo.<br><p>Se exempel på våra partitur som pdf: <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Bach</a>, <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Händel</a>, <a href=\"http://www.aftonbladet.se\" target=\"_blank\">Zappa</a>.</p>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/milveden2-2000x1333-1-800x533-78.jpg",
+                "image": "@PROJECT_PATH@/assets/images/milveden2-2000x1333-1.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/organ-works-1-2000x1333-87-800x533-53.jpg",
+                "image": "@PROJECT_PATH@/assets/images/organ-works-1-2000x1333-87.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/svemska-operaduetter1-2000x1333-50-800x533-87.jpg",
+                "image": "@PROJECT_PATH@/assets/images/svemska-operaduetter1-2000x1333-50.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/svensk-pianomusik-2000x1333-33-800x533-16.jpg",
+                "image": "@PROJECT_PATH@/assets/images/svensk-pianomusik-2000x1333-33.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "2",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-1g",
+          "articleLayout": false,
+          "allItem": "ALL",
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "text-align": "left"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-1k",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///Users/ulf/Library/Application%20Support/Mobirise.com/Mobirise/projectData/03.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ecf0f1",
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true
+          },
+          "subtitle": "",
+          "title": "Ring så spelar vi",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis, ea amet non commodi voluptate. Aspernatur libero cumque in unde et culpa corrupti asperiores praesentium voluptatum iure dolores illo nihil saepe distinctio eaque explicabo quis ipsam sed consectetur, accusantium ex qui. Voluptas nam consectetur, dolorem sed quo qui iusto dolor!",
+          "form": {
+            "action": "ulf.tjarnstrom@gmail.com",
+            "alerts": {
+              "success": "Tack, vi hör av oss snarast!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Namn*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "E-post*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Telefon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Vad kan vi hjälpa dig med?"
+              }
+            }
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            },
+            "P": {
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "left"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-z",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444",
+            "logo": false,
+            "showTitles": false,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "Notografiska",
+          "text11": "<b>Notografiska</b><br>Krokvägen 16<br>141 31 Huddinge<br>Sweden<br>",
+          "text12": "",
+          "text13": "",
+          "text14": "",
+          "text15": "",
+          "title2": "",
+          "text21": "070-123456",
+          "text22": "info@notografiska.se",
+          "text23": "Org. nr. 123456789",
+          "text24": "",
+          "text25": "",
+          "title3": "Learn more",
+          "text31": "",
+          "text32": "",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "followtext": "follow us",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://www.twitter.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://linkedin.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "Copyright (c) 2016 Notografiska"
+        }
+      ]
+    }
+  }
+}
